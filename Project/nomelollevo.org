@@ -1,0 +1,90 @@
+* Infrastructure
+
+Some infrastructure tasks to be done
+
+** DONE buy domain
+** TODO setup Github repository
+** TODO create rails 3 project
+** TODO a CSS framework must be selected
+Some CSS frameworks links:
+- http://www.designinfluences.com/fluid960gs/
+- http://centage.peruste.net/
+- http://www.contentwithstyle.co.uk/content/a-css-framework
+
+Rails 3 and ruby 1.9 will be used as the technology base for the project
+
+** TODO document RVM and application setup
+
+
+* Personas
+
+** Seller
+ - interested in selling articles
+ - sales are restricted in time, only a few weeks (he's moving and needs to get rid
+   of his not essential stuff)
+ - prefers a hand-to-hand exchange of articles rather than dealing with couriers
+   and bank accounts
+ - does not want to register in yet another web service
+
+** Buyer
+ - looking for low prices items in his own city or geographical area
+ - is not looking for a specific item
+ - Needs an interface capable of filtering items by location and price
+ - May be interested in receiving alerts and notifications when new items
+   matching his search criteria are available in the site
+ - prefers a hand-to-hand exchange of articles rather than dealing with couriers
+   and bank accounts
+ - does not want to register in yet another web service
+
+** Focused Buyer
+ - is looking for a certain item and tries the service
+ - Needs a powerful search interface capable of narrowing the results offered by
+   the service
+
+
+* Homepage
+
+The homepage must include the following parts:
+ - Branding: name of the site, logo?
+ - Description
+ - Login buttons for [sellers]: gmail account, twitter account, facebook account
+ - Latest offerings (small sample of items sold so users can get a feeling of
+   the kind of stuff the will find in the place):
+   + Description
+   + Picture
+   + Category
+   + Remaining time this item will be available
+   + Location (city)
+ - Search box interface (??)
+ - Link to the categorical search.
+ - Footer: about, legal terms, etc.
+
+Some sites whose design can be used as  a reference:
+ - http://www.foodspotting.com
+ - http://www.oldweather.org/
+ - http://bioblitz.tdwg.org/
+
+** Homepage tasks:
+
+List of tasks to do
+
+*** TODO Design home mockup
+
+A sample of mockup with the design of the home page must be done
+
+
+
+* Categorical search
+
+The categorical search is the main mechanism allowing buyers to find items they
+might be interested in.
+Categorical should implement a search interface similar to idealista.com search interface:
+
+ - Province selection
+ - City selection
+ - category selection
+ - price selection
+
+** Categorical search tasks:
+
+*** TODO Design categorical search mockup
