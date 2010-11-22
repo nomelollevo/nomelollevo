@@ -1,0 +1,51 @@
+body {
+   background-color: #f4f4f4;
+   font-family: arial
+}
+
+#header {
+   width: 100%;
+   background-image: url("/images/header_bg.png");
+   height: 68px;
+   position: relative
+}
+
+#header-logo-text {
+   color: white;
+   font-size: 25px;
+   position: absolute;
+   margin-left: 20px;
+   margin-top: 27px;
+   text-shadow: #e59408 0px -1px 1px
+}
+
+/* Home page */
+
+#map-container {
+   height: 450px;
+   background-color: white;
+   position: relative
+}
+
+
+#description {
+   -moz-border-radius: 3px;
+   border-radius: 3px;
+   position: absolute;
+   background-color: #968e7e;
+   margin-top: 50px;
+   margin-left: 200px;
+   margin-right: 200px;
+   margin-bottom: 50px;
+   height: 300px;
+   color: white;
+   padding: 10px
+}
+
+
+#description-title {
+   font-size: 25px;
+   text-align: center;
+   margin-bottom: 40px;
+   margin-top: 5px
+}
