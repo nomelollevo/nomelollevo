@@ -11,7 +11,8 @@ module Authentication
     def facebook_client
       OAuth2::Client.new(Settings.authentication.facebook.app_id,
                          Settings.authentication.facebook.app_secret,
-                         :site => Settings.authentication.facebook.site)
+                         :site => Settings.authentication.facebook.site,
+                         :ssl => {:verify => false})
     end
 
     # Generates the URL for OAuth authentication in Facebook
