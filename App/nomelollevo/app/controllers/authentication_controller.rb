@@ -4,6 +4,10 @@ class AuthenticationController < ApplicationController
 
   include Authentication::Facebook
 
+  # Allows users withouth js to select an authentication mechanism
+  def index
+  end
+
   # Clients will be directed to this action when
   # they click the login with facebook button in
   # the home page.

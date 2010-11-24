@@ -1,3 +1,10 @@
+<script type="text/javascript">
+  jQuery(function($) {
+    // document ready
+    NML.Home.Index.onload();
+  });
+</script>
+
 <div id="map-container" class="container_12">
 
   <div id="description">
@@ -14,9 +21,17 @@
       Todo con un par de clics.
     </div>
 
-    <a id="new-sale-home-button" class="button" href="/authentication/facebook">
+    <%= link_to(url_for(:controller => "authentication", :action => "index"),
+                :id => "new-sale-home-button",
+                :class => "button") do %>
       <span>Crea una nueva venta</span>
-    </a>
+    <% end %>
   </div>
 
+</div>
+
+<div id="login-overlay" class="overlay">
+</div>
+<div id="login-selection-box" class="overlay-dialog">
+  <%= render :partial => "login_buttons" %>
 </div>

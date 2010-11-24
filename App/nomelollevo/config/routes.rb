@@ -53,6 +53,7 @@ Nomelollevo::Application.routes.draw do
   # Authentication
   match "/authentication/facebook" => "authentication#facebook_request"
   match "/authentication/facebook/callback/" => "authentication#facebook_callback"
+  match "/authentication/" => "authentication#index"
 
   # See how all your routes lay out with "rake routes"
 
